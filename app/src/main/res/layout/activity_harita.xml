@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HaritaActivity">
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_marginTop="@dimen/margin_yuksekligi"
+        android:layout_height="150dp"
+        app:srcCompat="@android:drawable/ic_menu_mapmode"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/harita_btn"
+        android:text="@string/buton_text"
+        android:onClick="haritaAc"
+        android:textColor="@color/beyaz"
+        android:background="@color/mor"
+
+        />
+
+
+</LinearLayout>

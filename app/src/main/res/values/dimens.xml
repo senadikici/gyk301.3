@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buton_yuksekligi">100dp</dimen>
+    <dimen name="margin_yuksekligi">16dp</dimen>
+
+</resources>
